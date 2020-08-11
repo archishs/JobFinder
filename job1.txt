@@ -1,0 +1,22 @@
+job
+software engineer
+company
+google
+province
+ontario
+city
+Toronto
+income
+6000000
+benefits
+Yes
+requirededucation
+None
+email
+employergoogle@gmail.com
+phone
+647-987-6543
+website
+www.google.com
+filename
+googlesoftwareengineer

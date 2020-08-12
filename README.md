@@ -1,2 +1,8 @@
-# JobFinder
-A job searching program built in python
+# Job Finder
+A job searching system built in python. Based on two files of information given about the job and the applicant, as well as multiple choice and long answer questions answered by both the employer and applicant, this system will provide a percentage match between the job and applicant. This is based off an algorithm that carefully weighs the information it has, analyzes the text in the answers, checks through various criteria and ultimately provides an accurate output of match.
+
+## The algorithm
+Our algorithm takes into account 2 main factors when making its evaluations. The first is the multiple choice questions and long answer responses. The questions we ask determine the level of similarity between the environment of the office and the work style of the applicant, as well as comparing the skills of the applicant to the skills the job requires. The multiple choice questions are compared simply, but the long answer questions use a separate algorithm to evaluate the similarity between the two answers (I've covered how this algorithm works here: https://github.com/archishs/Intelligent-String-Comparison). The other factor the algorithm uses is the information in the text files including distance, salary expectation, education, and many more. Using these factors, we can produce an accurate percentage match.
+
+## How to use
+To use the job finding algorithm, simply clone the repository or download it, change the information as required in the text files, run the main.py program, answer the questions from both the employer and applicant side and get your percentage match.
